@@ -9,7 +9,7 @@
 
   <body class="bg-slate-900">
     <nav
-      class="bg-slate-700 flex text-white items-center justify-between py-4 px-5"
+      class="bg-slate-700 flex text-white items-center justify-between flex-wrap py-4 px-5"
     >
       <!--logo-->
       <div>
@@ -17,19 +17,27 @@
       </div>
       <!--Toggle Button-->
       <div class="block lg:hidden">
-        <button class="flex flex-col">
+        <button onclick="toggle_nav()" class="flex flex-col">
           <div class="w-6 h-1 bg-white"></div>
-          <div class="w-6 h-1 bg-white"></div>
+          <div class="w-6 h-1 bg-white my-1"></div>
           <div class="w-6 h-1 bg-white"></div>
         </button>
       </div>
 
       <!--Navigation Menu-->
-      <div class="navbar">
-        <div class="">
-          <a href="#"></a>
+      <div class="w-full lg:w-auto block lg:flex lg:items-center lg:block hidden" id="navbar">
+        <div class="lg:flex-grow text-2xl text-center block">
+          <a href="#" class="block lg:block-inline hover:text-green-400 mt-5"> Home</a>
+          <a href="#" class="block lg:block-inline hover:text-green-400 mt-5"> Blog</a>
+          <a href="#" class="block lg:block-inline hover:text-green-400 mt-5 mb-3"> About US</a>
+          <a href="#" class="blocklg:block-inline hover:text-green-400 border rounded border-white hover:border-transparent hover:bg-white px-4 mt-5"> Login/ Sign Up</a>
+        </div>
+        </div>
+        </div>
         </div>
       </div>
     </nav>
+
+    <script src="script.js"></script>
   </body>
 </html>
