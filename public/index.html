@@ -17,7 +17,7 @@
       </div>
       <!--Toggle Button-->
       <div class="block lg:hidden">
-        <button onclick="toggle_nav()" class="flex flex-col">
+        <button onclick="toggle_nav()" class="flex flex-col px-3 py-2 border rounded border-gray-800 hover:text-white">
           <div class="w-6 h-1 bg-white"></div>
           <div class="w-6 h-1 bg-white my-1"></div>
           <div class="w-6 h-1 bg-white"></div>
@@ -25,18 +25,22 @@
       </div>
 
       <!--Navigation Menu-->
-      <div class="w-full lg:w-auto block lg:flex lg:items-center lg:block hidden" id="navbar">
-        <div class="lg:flex-grow text-2xl text-center block">
-          <a href="#" class="block lg:block-inline hover:text-green-400 mt-5"> Home</a>
-          <a href="#" class="block lg:block-inline hover:text-green-400 mt-5"> Blog</a>
-          <a href="#" class="block lg:block-inline hover:text-green-400 mt-5 mb-3"> About US</a>
-          <a href="#" class="blocklg:block-inline hover:text-green-400 border rounded border-white hover:border-transparent hover:bg-white px-4 mt-5"> Login/ Sign Up</a>
+      <div class="w-full lg:w-auto block 
+      lg:flex lg:items-center 
+      lg:inline-block hidden " id="navbar">
+        <div class="lg:flex-grow text-2xl text-center block space-x-3">
+          <a href="#" class="block lg:inline-block hover:text-green-400 mt-5"> Home</a>
+          <a href="#" class="block lg:inline-block hover:text-green-400 mt-5"> Blog</a>
+          <a href="#" class="block lg:inline-block hover:text-green-400 mt-5 mb-3"> About US</a>
+          <a href="#" class="lg:inline-block hover:text-green-400 border rounded border-white hover:border-transparent hover:bg-white px-4 mt-5"> Login / Sign Up</a>
         </div>
         </div>
         </div>
         </div>
       </div>
     </nav>
+
+    <h1 class="text-center m-auto text-white text-6xl">Subscride Tutorend</h1>
 
     <script src="script.js"></script>
   </body>
