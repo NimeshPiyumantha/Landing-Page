@@ -1,12 +1,8 @@
-var navbar = document.getElementById("navbar");
-const toggle_nav = ()=>{
-    navbar.classList.toggle("hidden");
-}
+const btn = document.getElementById('menu-btn');
+const nav = document.getElementById('menu');
 
-//Close menu is window size increases
-window.onresize=()=>{
-    let viewportwidth=window.innerWidth;
-    if(viewportwidth>1050){
-        navbar.classList.add("hidden");
-    }
-}
+btn.addEventListener('click', () => {
+  btn.classList.toggle('open');
+  nav.classList.toggle('flex');
+  nav.classList.toggle('hidden');
+});
