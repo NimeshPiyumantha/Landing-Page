@@ -710,6 +710,11 @@ body {
   transform: translateY(14px);
 }
 
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
