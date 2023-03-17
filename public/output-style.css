@@ -668,6 +668,17 @@ body {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 576px) {
+  body {
+    background-position: 50px -50px;
+    background-size: 500px;
+  }
+
+  #cta {
+    background-image: url("../img/bg-simplify-section-mobile.svg");
+  }
+}
+
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
