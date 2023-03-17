@@ -49,3 +49,7 @@ body {
 .hamburger-middle {
   transform: translateY(7px);
 }
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
