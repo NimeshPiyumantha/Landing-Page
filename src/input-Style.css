@@ -62,3 +62,7 @@ body {
 .open .hamburger-top {
   transform: rotate(45deg) translateY(6px) translate(6px);
 }
+
+.open .hamburger-middle {
+  display: none;
+}
