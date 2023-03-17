@@ -8,3 +8,8 @@ body {
   background-size: 800px;
   background-position: 90% -25%;
 }
+
+#cta {
+  background-image: url("../img/bg-simplify-section-desktop.svg");
+  background-repeat: no-repeat;
+}

@@ -663,6 +663,11 @@ body {
   background-position: 90% -25%;
 }
 
+#cta {
+  background-image: url("../img/bg-simplify-section-desktop.svg");
+  background-repeat: no-repeat;
+}
+
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
