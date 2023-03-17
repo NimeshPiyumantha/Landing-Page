@@ -1,6 +1,6 @@
 ﻿# Landing-Page
 
-- This is learning tailwindcss Framework.
+- **This is learning tailwindcss Framework.**
 
 ### Link
 * 🔗 <a href="https://nimeshpiyumantha.github.io/Landing-Page/public" target="_blank">GitHub Page</a>
